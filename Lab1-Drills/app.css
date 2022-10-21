@@ -1,0 +1,114 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a :hover {
+    color: blue;
+}
+
+.box1 {
+    margin: 5em 5em;
+    padding: 3em;
+    border: 1px solid black;
+    border-width: 1em;
+    border-color: aqua;
+    border-radius: 1em;
+    width: 30em;
+}
+
+.box2 {
+    margin: 5em 5em;
+    padding: 3em;
+    border: 1px solid black;
+    border-width: 1em;
+    border-color: red;
+    border-radius: 1em;
+    width: 30em;
+    bottom: 27em;
+    left: 50em;
+}
+
+.box3 {
+    margin: 5em 5em;
+    padding: 3em;
+    border: 1px solid black;
+    border-width: 1em;
+    border-color: royalblue;
+    border-radius: 1em;
+    width: 30em;
+}
+
+.box4 {
+    margin: 5em 5em;
+    padding: 3em;
+    border: 1px solid black;
+    border-width: 1em;
+    border-color: green;
+    border-radius: 1em;
+    width: 30em;
+}
+
+#Container {
+    display: block;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    top: 50px;
+    left: 130px;
+    background-color: yellow;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+.original {
+    color: green;
+}
+
+.additional {
+    color: blue;
+}
+
+#Rank1 {
+    color: lightblue;
+}
+
+#Rank2 {
+    color: aquamarine;
+}
+
+#Rank3 {
+    color: aqua;
+}
+
+#Rank4 {
+    color: blue;
+}
+
+#Rank5 {
+    color: blueviolet;
+}
+
+ul {
+    color: darkblue;
+}
+
+.star {
+    color: darkred;
+}
+
+#wars {
+    color: gold;
+}
