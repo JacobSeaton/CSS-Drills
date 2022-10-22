@@ -4,9 +4,7 @@
 }
 
 .row {
-    float: left;
-    height: 100px;
-    width: 100px;
+    width: 302px;
     clear: both;
     margin: 0 auto;
     }
@@ -25,4 +23,11 @@
 
     .right {
         border-left: 1px black solid
+    }
+    
+    .square {
+        float: left;
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
     }
