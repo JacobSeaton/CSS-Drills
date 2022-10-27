@@ -1,33 +1,35 @@
 #board {
-    padding: 3em;
-    text-align: center;
+  padding: 3em;
+  text-align: center;
 }
 
 .row {
-    width: 302px;
-    clear: both;
-    margin: 0 auto;
-    }
+  width: 302px;
+  clear: both;
+  margin: 0 auto;
+}
 
-    .top {
-        border-bottom: 1px black solid
-    }
+.top {
+  border-bottom: 1px black solid;
+}
 
-    .bottom {
-        border-top: 1px black solid
-    }
+.bottom {
+  border-top: 1px black solid;
+}
 
-    .left {
-        border-right: 1px black solid
-    }
+.left {
+  border-right: 1px black solid;
+}
 
-    .right {
-        border-left: 1px black solid
-    }
-    
-    .square {
-        float: left;
-        height: 100px;
-        width: 100px;
-        cursor: pointer;
-    }
+.right {
+  border-left: 1px black solid;
+}
+
+.square {
+  float: left;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 75px;
+}
